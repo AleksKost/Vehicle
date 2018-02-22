@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-            Vehicle veh = new Vehicle(200, 260, 2017);
-            System.out.println(veh);
 
-        Car car1 = new Car(150,80,2014);
+        Car car1 = new Car(35000,280,2018);
         System.out.println(car1);
 
         Ship ship = new Ship(52, "Odessa");

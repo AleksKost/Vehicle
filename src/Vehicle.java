@@ -10,6 +10,7 @@ public class Vehicle {
     }
 
     public Vehicle() {
+
     }
 
     public int getPrice() {
@@ -36,8 +37,9 @@ public class Vehicle {
         this.year = year;
     }
 
+
     @Override
     public String toString() {
-        return "Vehicle{" + "price=" + price + ", speed=" + speed + ", year=" + year + '}';
+        return "Vehicle {" + "price = " + price + ", speed = " + speed + ", year = " + year + '}';
     }
 }

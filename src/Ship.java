@@ -1,20 +1,20 @@
 public class Ship extends Vehicle {
 
-    private int passPlaneAmmount;
+    private int passAmount;;
     private String port;
 
 
     public int getPassPlaneAmmount() {
-        return passPlaneAmmount;
+        return passAmount;
     }
 
-    public Ship( int passPlaneAmmount, String port) {
-        this.passPlaneAmmount = passPlaneAmmount;
+    public Ship( int passAmount, String port) {
+        this.passAmount = passAmount;
         this.port = port;
     }
 
-    public void setPassPlaneAmmount(int passPlaneAmmount) {
-        this.passPlaneAmmount = passPlaneAmmount;
+    public void setpassAmount(int passAmount) {
+        this.passAmount = passAmount;
     }
 
     public String getPort() {
@@ -27,6 +27,6 @@ public class Ship extends Vehicle {
 
     @Override
     public String toString() {
-        return "Ship{" + "passPlaneAmmount = " + passPlaneAmmount + ", port = '" + port + '\'' + '}';
+        return "Ship {" + "passAmount = " + passAmount + ", port = '" + port + '\'' + '}';
     }
 }

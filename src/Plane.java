@@ -1,11 +1,11 @@
 public class Plane extends Vehicle {
 
     private int height;
-    private int passAmount;
+    private int passPlaneAmmount;
 
-    public Plane(int height, int passAmount) {
+    public Plane(int height, int passPlaneAmmount) {
         this.height = height;
-        this.passAmount = passAmount;
+        this.passPlaneAmmount = passPlaneAmmount;
     }
 
     public int getHeight() {
@@ -16,16 +16,16 @@ public class Plane extends Vehicle {
         this.height = height;
     }
 
-    public int getPassAmount() {
-        return passAmount;
+    public int getpassPlaneAmmount() {
+        return passPlaneAmmount;
     }
 
-    public void setPassAmount(int passAmount) {
-        this.passAmount = passAmount;
+    public void passPlaneAmmount(int passPlaneAmmount) {
+        this.passPlaneAmmount = passPlaneAmmount;
     }
 
     @Override
     public String toString() {
-        return "Plane{" + "height=" + height + ", passAmount=" + passAmount + '}';
+        return "Plane {" + "height = " + height + ", passPlaneAmmount = " + passPlaneAmmount + '}';
     }
 }
